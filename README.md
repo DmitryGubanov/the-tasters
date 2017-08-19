@@ -62,24 +62,26 @@ Custom made assets
 
 # Pages and page functionality/features
 
-### Home
-- cover/launch page
+### Home Page
+- cover/launch page with search bar
+- search bar is animated and follows user when user scrolls
 - search results (not fully implemented - just populates all restaurants)
+- results are expandable and expansion is animated
 - map (responsive to search, but not connected to restaurants listed)
 
 ![alt text](http://i.imgur.com/kiADvaw.jpg)
 ![alt text](http://i.imgur.com/hzIScY7.png)
 ![alt text](http://i.imgur.com/Jj2fAhs.png)
 
-### Restaurant
+### Restaurant Page
 - restaurant photo
 - restaurant info (name, location, ratings)
-- restaurant menus
+- restaurant menus (clickable and expandable with animations)
 
 ![alt text](http://i.imgur.com/NyFP92S.png)
 ![alt text](http://i.imgur.com/PmxPzLd.png)
 
-### Meal Info
+### Meal Info Page
 - meal photo
 - meal info (name, restaurant, ratings)
 - reviews listed
@@ -87,13 +89,13 @@ Custom made assets
 
 ![alt text](http://i.imgur.com/LObE5KR.png)
 
-### Sign up/in
-- sign in form
+### Sign Up/Sign In Page
+- sign in form (verifies login info)
 - sign up form
 
 ![alt text](http://i.imgur.com/6b6sAui.png)
 
-### User profile (customer vs business owner)
+### User Profile (customer vs business owner) Pages
 - user information
 - user reviews
 OR
@@ -110,18 +112,31 @@ OR
 ![alt text](http://i.imgur.com/9qiDF7p.png)
 
 ### Pages react to users
-
+- using express-sessions to manage different users being logged on at once
+- persistent icons and additional options in the nav bar if users are logged in
+- users have a type, based on what they selected on profile creation, and that type dictactes some of the content they see
 
 ![alt text](http://i.imgur.com/AuztNHU.jpg)
+
+- logged in users can leave reviews
+
 ![alt text](http://i.imgur.com/q9XaGUE.png)
+
+- restaurant owners are able to modify their restaurant info, add menus, and modify/delete menus
+- they're also able to modify the meals on their menus
+- all editing functionality is hidden and is animated into view when the appropriate edit/add button is pressed
+
+![alt text](http://i.imgur.com/EGTSY4h.png)
+![alt text](http://i.imgur.com/ISxCLKJ.png)
+
 
 # Breakpoints
 
 0px <= A < 800px <= B < 1280px <= C
 
 - A: mobile/small display
-- C: medium display
-- D: large display
+- B: medium display
+- C: large display
 
 ![alt text](http://i.imgur.com/OUYlH1a.png)
 ![alt text](http://i.imgur.com/nx9ZaUC.png)
