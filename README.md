@@ -135,8 +135,13 @@ OR
 0px <= A < 800px <= B < 1280px <= C
 
 - A: mobile/small display
+
+![alt text](http://i.imgur.com/nx9ZaUC.png)
+
 - B: medium display
-- C: large display
 
 ![alt text](http://i.imgur.com/OUYlH1a.png)
-![alt text](http://i.imgur.com/nx9ZaUC.png)
+
+- C: large display
+
+![alt text](http://i.imgur.com/LObE5KR.png)
