@@ -62,38 +62,58 @@ Custom made assets
 
 # Pages and page functionality/features
 
-Home
+### Home
 - cover/launch page
 - search results (not fully implemented - just populates all restaurants)
 - map (responsive to search, but not connected to restaurants listed)
 
 ![alt text](http://i.imgur.com/kiADvaw.jpg)
+![alt text](http://i.imgur.com/hzIScY7.png)
+![alt text](http://i.imgur.com/Jj2fAhs.png)
 
-Restaurant
+### Restaurant
 - restaurant photo
 - restaurant info (name, location, ratings)
 - restaurant menus
 
-Meal Info
+![alt text](http://i.imgur.com/NyFP92S.png)
+![alt text](http://i.imgur.com/PmxPzLd.png)
+
+### Meal Info
 - meal photo
 - meal info (name, restaurant, ratings)
 - reviews listed
 - ability to submit review (assuming logged in)
 
-Sign up/in
+![alt text](http://i.imgur.com/LObE5KR.png)
+
+### Sign up/in
 - sign in form
 - sign up form
 
-User profile (customer vs business owner)
+![alt text](http://i.imgur.com/6b6sAui.png)
+
+### User profile (customer vs business owner)
 - user information
 - user reviews
 OR
 - business owner info
 - restaurants owned
 
-Account Management (customer vs business owner)
+![alt text](http://i.imgur.com/7AJppe8.png)
+![alt text](http://i.imgur.com/zUjaPzd.png)
+
+### Account Management (customer vs business owner)
 - form to modify user info
 - form to delete account
+
+![alt text](http://i.imgur.com/9qiDF7p.png)
+
+### Pages react to users
+
+
+![alt text](http://i.imgur.com/AuztNHU.jpg)
+![alt text](http://i.imgur.com/q9XaGUE.png)
 
 # Breakpoints
 
@@ -102,3 +122,6 @@ Account Management (customer vs business owner)
 - A: mobile/small display
 - C: medium display
 - D: large display
+
+![alt text](http://i.imgur.com/OUYlH1a.png)
+![alt text](http://i.imgur.com/nx9ZaUC.png)
