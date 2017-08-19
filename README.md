@@ -1,20 +1,34 @@
-# Running website/server
+# theTasters
 
+A food/restaurant rating website project (i.e. Yelp clone) done for educational purposes in a group of three over the course of a couple of months.
+
+With regards to this README, below are setup instructions, project directory structure, and a list of pages with screenshots.
+
+# Instructions for running website/server
+
+Node.js (and npm) are required for this server to run. Furthermore, mongodb might require some setup on your system. It's also possible there are other dependencies missing on your system, so some debugging/setup might be needed. In any case, this is how I run the server:
+
+### Terminal 1
 ```
-npm install
+mkdir data
+mongod --dbpath data
+```
 
+### Terminal 2
+```
 mongoimport -d ttdb_sample -c users sample_data/users.json
 mongoimport -d ttdb_sample -c restaurants sample_data/restaurants.json
 mongoimport -d ttdb_sample -c menus sample_data/menus.json
 mongoimport -d ttdb_sample -c meals sample_data/meals.json
 mongoimport -d ttdb_sample -c reviews sample_data/reviews.json
 
+npm install
 npm start
 ```
 
-Navigate to http://localhost:3000
+Navigate to http://localhost:3000 on your browser.
 
-# Directory Structure
+# Project directory Structure
 
 ```
 /app                    #all code is in here
@@ -46,12 +60,14 @@ Custom made assets
 - cards (material design inspired cards)
 - buttons (custom button styles)
 
-# Pages
+# Pages and page functionality/features
 
 Home
-- cover
-- search results (did not implement)
-- map
+- cover/launch page
+- search results (not fully implemented - just populates all restaurants)
+- map (responsive to search, but not connected to restaurants listed)
+
+![alt text](http://i.imgur.com/kiADvaw.jpg)
 
 Restaurant
 - restaurant photo
@@ -61,8 +77,8 @@ Restaurant
 Meal Info
 - meal photo
 - meal info (name, restaurant, ratings)
-- reviews
-- review submit
+- reviews listed
+- ability to submit review (assuming logged in)
 
 Sign up/in
 - sign in form
