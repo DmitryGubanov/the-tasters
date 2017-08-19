@@ -130,7 +130,7 @@ OR
 ![alt text](http://i.imgur.com/ISxCLKJ.png)
 
 
-# Breakpoints
+### Responsive design
 
 0px <= A < 800px <= B < 1280px <= C
 
