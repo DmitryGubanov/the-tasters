@@ -28,7 +28,7 @@ npm start
 
 Navigate to http://localhost:3000 on your browser.
 
-# Project directory Structure
+# Project directory structure
 
 ```
 /app                    #all code is in here
@@ -105,7 +105,7 @@ OR
 ![alt text](http://i.imgur.com/7AJppe8.png)
 ![alt text](http://i.imgur.com/zUjaPzd.png)
 
-### Account Management (customer vs business owner)
+### Account Management
 - form to modify user info
 - form to delete account
 
